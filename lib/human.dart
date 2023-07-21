@@ -5,7 +5,7 @@ part 'human.g.dart';
 
 @JsonSerializable()
 class Human {
-  @JsonKey(name: 'first_name')
+  // @JsonKey(name: 'first_name')
   String name;
   String surname;
   int age;

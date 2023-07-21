@@ -52,7 +52,7 @@ final humans = [
 const jsonString = ''' 
 [
   {
-    "first_name" : "Anvar",
+    "name" : "Anvar",
     "surname" : "Anvarov",
     "age" : 30,
     "address" : [

@@ -7,7 +7,7 @@ part of 'human.dart';
 // **************************************************************************
 
 Human _$HumanFromJson(Map<String, dynamic> json) => Human(
-      name: json['first_name'] as String,
+      name: json['name'] as String,
       surname: json['surname'] as String,
       age: json['age'] as int,
       address: (json['address'] as List<dynamic>)
@@ -16,7 +16,7 @@ Human _$HumanFromJson(Map<String, dynamic> json) => Human(
     );
 
 Map<String, dynamic> _$HumanToJson(Human instance) => <String, dynamic>{
-      'first_name': instance.name,
+      'name': instance.name,
       'surname': instance.surname,
       'age': instance.age,
       'address': instance.address,
