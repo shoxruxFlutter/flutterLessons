@@ -1,5 +1,5 @@
-import 'package:flutter_lessons/address.dart';
-import 'package:flutter_lessons/human.dart';
+import 'package:flutter_lessons/json/address.dart';
+import 'package:flutter_lessons/json/human.dart';
 
 // class GetInfoResponse {
 //   final GetInfo response;
