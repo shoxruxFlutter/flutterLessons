@@ -17,9 +17,9 @@ class _ExampleState extends State<Example> {
       body: SafeArea(
         child: ExampleModelProvider(
           model: model,
-          child: Column(
+          child: const Column(
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: const [
+            children: [
               _ReloadButton(),
               _CreateButton(),
               Expanded(
